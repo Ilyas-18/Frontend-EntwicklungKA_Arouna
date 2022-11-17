@@ -27,15 +27,17 @@
 		<h3>Fahrtkostenrechner</h3>
 		<div>
 			<label>voraussichtlich zurückgelegte Fahrtstrecke <strong>in km</strong></strong>:</label>
-			<input>
+			<input id="wert1">
 		</div>
 		<div>
 			<label>voraussichtliche Mietdauer <strong>in Stunden</strong>:</label>
 			<input>
 			<label>gewählter <strong>Fahrzeugtyp</strong>:</label>
 		</div>
-		<div><fieldset><label>PKW: </label><input type="radio"><label>Kleintransporter: </label><input type="radio">
+		<div><fieldset><label>PKW: </label><input type="radio" checked="true" name="1"><label> Kleintransporter: </label><input type="radio" name="1">
 		</fieldset></div>
+		<div><button onclick="fahrtkostenberechnung()">Fahrtkosten berechnen</button>
+		</div>
 	</form>
 	</body>
 </html>
